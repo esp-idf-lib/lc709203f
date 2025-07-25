@@ -11,7 +11,7 @@ Driver for LC709203F battery fuel gauge.
 ## Installation
 
 ```sh
-idf.py add-dependency "esp-idf-lib/lc709203f^1.0.0
+idf.py add-dependency esp-idf-lib/lc709203f^1.0.0
 ```
 
 ## Support
