@@ -1,5 +1,9 @@
 # esp-idf-lib/lc709203f
 
+[![Build examples](https://github.com/esp-idf-lib/lc709203f/actions/workflows//build.yml/badge.svg)](https://github.com/esp-idf-lib/lc709203f/actions/workflows//build.yml)
+[![Build docs](https://github.com/esp-idf-lib/lc709203f/actions/workflows//build-docs.yml/badge.svg)](https://github.com/esp-idf-lib/lc709203f/actions/workflows//build-docs.yml)
+[![Validation](https://github.com/esp-idf-lib/lc709203f/actions/workflows//validate-component.yml/badge.svg)](https://github.com/esp-idf-lib/lc709203f/actions/workflows//validate-component.yml)
+
 Driver for LC709203F battery fuel gauge.
 
 * [Documentation](https://esp-idf-lib.github.io/lc709203f/)
@@ -11,7 +15,7 @@ Driver for LC709203F battery fuel gauge.
 ## Installation
 
 ```sh
-idf.py add-dependency esp-idf-lib/lc709203f^1.0.0
+idf.py add-dependency esp-idf-lib/lc709203f
 ```
 
 ## Support
