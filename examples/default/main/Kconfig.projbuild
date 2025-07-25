@@ -25,5 +25,5 @@ menu "Example configuration"
         default 1 if EXAMPLE_I2C_ONBOARD_PULLUP_GPIO_OUTPUT_HIGH
         default 0 if EXAMPLE_I2C_ONBOARD_PULLUP_GPIO_OUTPUT_LOW
 
-    rsource "../../../../devtools/Kconfig.i2c"
+    rsource "../../../Kconfig.i2c"
 endmenu
