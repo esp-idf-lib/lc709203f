@@ -19,6 +19,7 @@ dependencies:
   esp-idf-lib/esp_idf_lib_helpers:
     version: "*"
 maintainers:
+  - Jose Manuel Perez (@jmpmscorp)
 url: https://github.com/esp-idf-lib/core
 repository: https://github.com/esp-idf-lib/lc709203f
 documentation: https://esp-idf-lib.github.io/lc709203f/
