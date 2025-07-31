@@ -52,24 +52,28 @@ extern "C" {
 #define LC709203F_REG_NUM_PARAMETER     0x1A ///< Batt profile code
 
 /*!  Battery temperature source */
-typedef enum {
+typedef enum
+{
     LC709203F_TEMP_MODE_I2C = 0x0000,
     LC709203F_TEMP_MODE_THERMISTOR = 0x0001,
 } lc709203f_temp_mode_t;
 
 /*!  Chip power state */
-typedef enum {
+typedef enum
+{
     LC709203F_POWER_MODE_OPERATIONAL = 0x0001,
     LC709203F_POWER_MODE_SLEEP = 0x0002,
 } lc709203f_power_mode_t;
 
-typedef enum {
+typedef enum
+{
     LC709203F_DIRECTION_AUTO = 0x0000,
     LC709203F_DIRECTION_CHARGE = 0x0001,
     LC709203F_DIRECTION_DISCHARGE = 0xFFFF,
 } lc709203f_direction_t;
 
-typedef enum {
+typedef enum
+{
     LC709203F_BATTERY_PROFILE_0 = 0x0000,
     LC709203F_BATTERY_PROFILE_1 = 0x0001,
 } lc709203f_battery_profile_t;

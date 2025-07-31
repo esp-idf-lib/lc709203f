@@ -63,7 +63,7 @@ void lc709203f_test(void *pvParameters)
         // Temperature in I2C mode. Temperature should be the same as configured.
         ESP_ERROR_CHECK(lc709203f_get_cell_temperature_celsius(&lc, &temperature));
         ESP_LOGI(TAG, "Temp: %.1f\tVoltage: %.2f\tRSOC: %d%%\tITE: %.1f%%", temperature, voltage / 1000.0, rsoc,
-            ite / 10.0);
+                 ite / 10.0);
         vTaskDelay(pdMS_TO_TICKS(10000));
     }
 }
