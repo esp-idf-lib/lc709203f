@@ -1,5 +1,5 @@
 ---
-version: 1.0.6
+version: 1.0.7
 description: Driver for LC709203F battery fuel gauge
 license: ISC
 targets:
