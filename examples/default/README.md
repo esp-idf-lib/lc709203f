@@ -17,8 +17,8 @@ resistors.
 
 | Name                            | Description           | Defaults                                                                         |
 | ------------------------------- | --------------------- | -------------------------------------------------------------------------------- |
-| `CONFIG_EXAMPLE_I2C_MASTER_SCL` | GPIO number for `SCL` | "5" for `esp8266`, "6" for `esp32c3`, "19" for `esp32`, `esp32s2`, and `esp32s3` |
-| `CONFIG_EXAMPLE_I2C_MASTER_SDA` | GPIO number for `SDA` | "4" for `esp8266`, "5" for `esp32c3`, "18" for `esp32`, `esp32s2`, and `esp32s3` |
+| `CONFIG_EXAMPLE_I2C_MASTER_SCL` | GPIO number for `SCL` | "6" for `esp32c3`, "19" for `esp32`, `esp32s2`, and `esp32s3` |
+| `CONFIG_EXAMPLE_I2C_MASTER_SDA` | GPIO number for `SDA` | "5" for `esp32c3`, "18" for `esp32`, `esp32s2`, and `esp32s3` |
 
 You can change `SCL` and `SDA` pins in Example configuration.
 
@@ -87,4 +87,3 @@ I (20350) Exammple: Temp: 20.0  Voltage: 4.21   RSOC: 100%       ITE: 100.0%
 I (30350) Exammple: Temp: 20.0  Voltage: 4.21   RSOC: 100%       ITE: 100.0%
 ...
 ```
-
